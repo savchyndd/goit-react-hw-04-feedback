@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { OptionsList, OptionsItem, Button } from './FeedbackOptions.module';
 
 export const FeedbackOptions = ({ options, leaveFeedback }) => {
+  console.log(options);
   return (
     <OptionsList>
       {options.map(option => (
